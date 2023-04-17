@@ -1,0 +1,33 @@
+.calculator-container{
+   border: 1px solid black;
+   width: 30%;
+   height: 300px;
+   margin: auto;
+   text-align: center;
+}
+.form-container{
+   display: flex;
+   flex-direction: column;
+}
+
+.form-input{
+    width: 50%;
+    margin: auto;
+}
+.form-group{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+button{
+     display: flex;
+     justify-content: center;
+     font-size: large;
+     font-weight: bolder;
+     background-color: teal;
+     cursor: pointer;
+     margin: auto;
+     width: 25%;
+     margin-top: 5px;
+    
+}
